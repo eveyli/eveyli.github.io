@@ -1,0 +1,40 @@
+#logo img{width: 200px}
+#logo {display: flex;align-items:center}
+
+ul li {
+    display: inline-block;
+    list-style: none;
+    margin: 0 10px;
+}
+
+.header {margin-top:40px;
+    display: flex;
+    justify-content: space-between;}
+.header a {color: black;font-weight: 900;font-size: 20px}
+.header a:hover {color: black} 
+.header a:link {color: black} 
+.header a:active {color: black} 
+
+.artical img {margin-top:20px}
+.artical a {color: red} 
+.artical a:hover {color: red} 
+.artical a:link {color: red} 
+.artical a:active {color: red} 
+
+.content {padding: 20}
+
+.footen {display: flex;justify-content: flex-end;
+    align-content: space-between;}
+.artical img {width: 100%}
+
+.footen a {color: black;font-weight: 900;font-size: 20px}
+.footen a:hover{color: black;}
+.footen a:link {color: black;}
+.footen a:active {color: black;}
+
+#contimg {display: flex;align-items:center;justify-content: center}
+#contimg img {width: 100%;margin: 40px}
+
+#detail {display: flex;justify-content: center}
+#wechat {display: flex;justify-content: center;}
+#wechat img {width: 250px}
